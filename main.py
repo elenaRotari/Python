@@ -1,3 +1,5 @@
+#DAY1
+
 #1 Exercise day 1 
 #print(" Hello World!!")
 #input("Hi there, how are you?")
@@ -33,13 +35,38 @@ b=c
 print("a: " + a)
 print("b: " + b)"""
 
-# Final Exerzice day1 #
+# Final Exercise day1 #
 
-print("Welcome to the Band Name Generator")
+"""print("Welcome to the Band Name Generator")
 city= input("What's name of the city you grew up in? ")
 print(city)
 pet = input("What's your pet's name? ")
 print(pet)
-print('Your band name could be '+ city +" " +  pet )
+print('Your band name could be '+ city +" " +  pet )"""
 
+
+
+#DAY2
+
+#Primitive Data Types 
+#print("Hello"[len("Hello")-1])
+# Float, Boolean, String. Integer
+
+#Exercise 1 day2
+"""
+two_digit_number = input("Type a two digit number: ")
+print(int(two_digit_number[0]) + int(two_digit_number[1]))
+# type_of= print(type(two_digit_number))"""
+
+
+
+#Math Operations in Pythom 
+ """
+ 3 + 5
+ 6 - 4
+ 3 * 8
+ 6 / 3 → result by dividing is always an float type 
+ 2 ** 3 → Math.pow() JS
+ PEMDAS ()→ **→ */→ +-
+ """
 
