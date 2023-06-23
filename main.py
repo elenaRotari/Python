@@ -60,13 +60,20 @@ print(int(two_digit_number[0]) + int(two_digit_number[1]))
 
 
 
-#Math Operations in Pythom 
- """
- 3 + 5
- 6 - 4
- 3 * 8
- 6 / 3 → result by dividing is always an float type 
- 2 ** 3 → Math.pow() JS
- PEMDAS ()→ **→ */→ +-
- """
+#Math Operations in Python
 
+# 3 + 5
+ #6 - 4
+ #3 * 8
+ #6 / 3 → result by dividing is always an float type 
+ #2 ** 3 → Math.pow() JS
+#PEMDAS ()→ **→ */→ +-
+
+
+#Exercise 2 day 2
+
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+
+print(int(int(weight) / (float(height) * float(height))))
