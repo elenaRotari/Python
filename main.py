@@ -71,9 +71,43 @@ print(int(two_digit_number[0]) + int(two_digit_number[1]))
 
 
 #Exercise 2 day 2
+# Calcutale BMI 
 
-height = input("enter your height in m: ")
+"""height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 
 
-print(int(int(weight) / (float(height) * float(height))))
+print(int(int(weight) / (float(height) * float(height))))"""
+
+#Number Manipulation 
+
+#print(round(7 / 3, 2)) #the same like in JS with toFixed(), with second param we decide how many int after comma
+
+# FString 
+"""score =8
+print(f"your score is {score}") # like backtics in JS """
+
+# Exercise 3 day2 
+
+
+"""age = input("What is your current age? ")
+
+mounth= (90 - int(age)) * 12
+weeks= (90 - int(age)) * 52
+days= (90 - int(age)) * 365
+
+print(f"You have {days} days, {weeks} weeks, and {mounth} months left")"""
+
+
+# Final Exercise day2 
+ # Tip Calculator 
+
+"""print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip = int(input("How much tip would you like to give? 10, 12, or 15? "))
+people = int(input("How many people to split the bill?"))
+final_amount = round(( bill + (bill * (tip / 100))) / people, 2)
+print(f"Each person should pay: ${final_amount}")"""
+
+
+
