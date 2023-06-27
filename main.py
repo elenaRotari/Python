@@ -140,9 +140,31 @@ if year % 4==0 :
 else:
  print("Not leap year")"""
 
+#Exercise 4 - Pizza Order Practice
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M, or L ")
+add_pepperoni = input("Do you want pepperoni? Y or N ")
+extra_cheese = input("Do you want extra cheese? Y or N ")
+
+bon =0
+if size=="S":
+    bon+=15
+elif size=="M":
+    bon+=20
+else:
+    bon+=25
+
+if add_pepperoni=="Y":
+    if size=="S":
+        bon+=2
+    else:
+        bon+=3
+if extra_cheese=="Y":
+    bon+=1
 
 
-
+       
+print(f" Your bill is : {bon}")
 
 
 
